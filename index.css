@@ -1,0 +1,26 @@
+#en1,#en2,#en3{
+    color: red;
+    background: green;
+    margin: 1px;
+    padding: 3px;
+}
+.columnas{
+    width: 25%;
+    background: yellow;
+    color: darkgreen;
+    padding: 5px;
+}
+.section{
+    display: flex;
+}
+#button:hover{/*para cuando se pasa el mouse sobre la etiqueta*/
+    color: red;
+    background: chartreuse;
+}
+#button:active{/*para cuando la etiqueta es pulsada*/
+    color: greenyellow;
+    background: #fb9300;
+}
+.columnas1{
+    display: inline-block;/*transformar elementos de bloque a elementos de linea*/
+}

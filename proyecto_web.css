@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.padre{
+    padding: 50px;
+    height: 700px;
+}
+.contenedor1{
+    padding: 35px;
+    background: black;
+    height: 95%;
+}
+    .division1-1{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background: darkblue;
+        margin-bottom: 25px;
+        height: 28%;
+    }
+        .division2-1{
+            background: orangered;
+            height: 35%;border: 1px solid green;
+            width: 20%;
+        }
+        .division2-2{
+            background: orangered;
+            height: 35%;border: 1px solid green;
+            width: 40%;
+        }
+        .division2-3{
+            background: orangered;
+            height: 35%;border: 1px solid green;
+            width: 20%;
+        }
+        
+    .division1-2{
+        background: #fb9300;
+        height: 68%;
+    }

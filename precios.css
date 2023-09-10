@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.columna{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px auto;
+    border: 1px solid black;
+    text-align: center;
+    background: lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px red; /* sombreado:medida x,medida y, degradado, color */
+    box-sizing: border-box;
+}
+.txt{
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+.precio{
+    color: aqua;
+    font-family: 'Mate', serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.btn-precio{
+    display: block;
+    padding: 5px;
+    color: black;
+    margin-bottom: 10px;
+    background: darkorange;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-precio:hover{
+    background: sandybrown;
+}
+/* elemento de linea solo resalta el texto, elemento de bloque resalta el 100% del width */
+@media(min-width:768px){
+    .columna{
+        width: 23%;
+    }
+}
+@media(max-width:768px){
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:425px){
+    .columna{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
+/*propiedades de flexbox
+flex-direction, flex-wrap, justify-content, align-items, align-content, flex-grow; flex-shrink;flex: flex-grow flex-shrink auto; order;
+
+
+*/
